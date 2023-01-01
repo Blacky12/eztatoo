@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600&family=Fira+Sans:wght@300&family=Joan&family=Smooch&display=swap');
+
+html {
+    border: 0.2em;
+    border-style: solid;
+    border-color:black;
+    margin:10em;
+    margin-bottom: 1em;
+    padding: 5em;
+    padding-bottom: 2em;
+}
+
+body {
+    text-align: center;
+    background-image: url(image/301874.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+nav {
+    font-family: 'Smooch', cursive;
+    font-size: 2em;
+    border:0.1em;
+    border-style: solid;
+    border-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1em;
+    margin-bottom: 2em
+}
+
+main {
+    margin-bottom: 5em;
+    font-family: 'Fira Sans', sans-serif;
+    color:white
+}
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 2em;
+    color: white
+}
+
+footer {
+    padding-top: 1em;
+    color: white;
+}
+
+footer.p {
+    font-weight: bolder;
+    flex-direction: row;
+}
